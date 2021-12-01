@@ -1,0 +1,16 @@
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    box-shadow: 8px 6px 4px gray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td{
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+thead{
+    background-color: #76B900;
+    color: white;
+}

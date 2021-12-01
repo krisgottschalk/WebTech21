@@ -1,0 +1,20 @@
+nav{
+    font-family: Verdana;
+    padding-top: 1.5%;
+    padding-left: 2%;
+    padding-bottom: 1.5%;
+}
+#nav a{
+    background-color: #0082D1;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px;
+    margin: 8px;
+    box-shadow: 4px 4px 5px gray;
+}
+#nav a:hover{
+    background-color: #AFAFAF;
+    color: #FF5F00;
+}
