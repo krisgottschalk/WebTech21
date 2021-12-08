@@ -1,6 +1,6 @@
-.DS_Store	
 html/
 images/
 css/
 RWD
 .DS_Store
+node_modules/**

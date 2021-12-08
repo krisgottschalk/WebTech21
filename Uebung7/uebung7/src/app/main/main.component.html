@@ -1,0 +1,19 @@
+<button (click)="tableOnOff()" type="button">{{buttonText}}</button>
+
+<div *ngIf="!tableOn">Tabelle nicht vorhanden</div>
+<table *ngIf= "tableOn">
+    <thead>
+        <tr>
+            <th>Vorname</th>
+            <th>Nachname</th>
+            <th>E-Mail-Adresse</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let member of members">
+            <td>{{member.forename}}</td>
+            <td>{{member.surname}}</td>
+            <td>{{member.email}}</td>
+         </tr>
+    </tbody>
+</table>
